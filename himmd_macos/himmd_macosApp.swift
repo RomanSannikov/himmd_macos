@@ -10,8 +10,8 @@ import SwiftUI
 @main
 struct himmd_macosApp: App {
     var body: some Scene {
-        WindowGroup {
-            ContentView()
+        MenuBarExtra("Name", systemImage: "hammer") {
+            AppMenu()
         }
     }
 }
